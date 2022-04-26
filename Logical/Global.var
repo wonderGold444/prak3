@@ -1,0 +1,14 @@
+VAR
+	led1 : {REDUND_UNREPLICABLE} BOOL;
+	led2 : {REDUND_UNREPLICABLE} BOOL;
+	led3 : {REDUND_UNREPLICABLE} BOOL;
+	led4 : {REDUND_UNREPLICABLE} BOOL;
+	LED : ARRAY[0..3] OF BOOL;
+	BUTTON : ARRAY[0..3] OF BOOL;
+	gAxis01 : ACP10AXIS_typ;
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_ModuleOk : BOOL := 0;
+	EVIRD : DRIVE;
+END_VAR
