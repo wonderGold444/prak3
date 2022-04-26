@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="4PP065_0571_P74" Type="4PP065.0571-P74" X="100" Y="100" />
+    <Module Name="X20SL8000" Type="X20SL8000" X="168" Y="292" />
+    <Module Name="X20TB52" Type="X20TB52" X="242" Y="319" />
+    <Module Name="X20MK0201" Type="X20MK0201" X="195" Y="362" />
+    <Module Name="X20BB80" Type="X20BB80" X="303" Y="293" />
+    <Module Name="X20BM31" Type="X20BM31" X="341" Y="293" />
+    <Module Name="X20SM1436" Type="X20SM1436" X="341" Y="293" />
+    <Module Name="X20TB12a" Type="X20TB12" X="354" Y="319" />
+    <Module Name="X20BM31a" Type="X20BM31" X="367" Y="293" />
+    <Module Name="X20SM1436a" Type="X20SM1436" X="367" Y="293" />
+    <Module Name="X20TB12b" Type="X20TB12" X="380" Y="319" />
+    <Module Name="X20MM4456" Type="X20MM4456" X="393" Y="293" />
+    <Module Name="X20BM11" Type="X20BM11" X="484" Y="293" />
+    <Module Name="X20DI9371" Type="X20DI9371" X="484" Y="293" />
+    <Module Name="X20TB12c" Type="X20TB12" X="484" Y="320" />
+    <Module Name="X20BM11a" Type="X20BM11" X="497" Y="293" />
+    <Module Name="X20DO9322" Type="X20DO9322" X="497" Y="293" />
+    <Module Name="X20TB12d" Type="X20TB12" X="497" Y="320" />
+    <Module Name="X20BM11b" Type="X20BM11" X="510" Y="293" />
+    <Module Name="X20AT4222" Type="X20AT4222" X="510" Y="293" />
+    <Module Name="X20TB12e" Type="X20TB12" X="510" Y="320" />
+    <Module Name="X20BM33" Type="X20BM33" X="523" Y="293" />
+    <Module Name="X20SI4100" Type="X20SI4100" X="523" Y="293" />
+    <Module Name="X20TB52a" Type="X20TB52" X="536" Y="319" />
+    <Module Name="X20BM33a" Type="X20BM33" X="549" Y="293" />
+    <Module Name="X20SO4110" Type="X20SO4110" X="549" Y="293" />
+    <Module Name="X20TB52b" Type="X20TB52" X="562" Y="319" />
+    <Module Name="X20BM11c" Type="X20BM11" X="575" Y="293" />
+    <Module Name="X20BT9100" Type="X20BT9100" X="575" Y="293" />
+    <Module Name="X20TB12f" Type="X20TB12" X="575" Y="320" />
+    <Module Name="X20PS9400" Type="X20PS9400" X="328" Y="293" />
+    <Module Name="X20TB12" Type="X20TB12" X="328" Y="320" />
+    <Module Name="X20BC0083" Type="X20BC0083" X="303" Y="293" />
+    <Module Name="8I64xxxxxxx.00x-1" Type="8I64xxxxxxx.00x-1" X="709" Y="292" />
+  </Modules>
+  <Links>
+    <Link From="4PP065_0571_P74" To="X20SL8000" FromPort="IF4" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="153.049988" Y="205.5" />
+      <Point X="153.049988" Y="205.5" />
+      <Point X="153.049988" Y="210.5" />
+      <Point X="153.049988" Y="405" />
+      <Point X="217.099991" Y="405" />
+      <Point X="217.099991" Y="393.5" />
+      <Point X="217.099991" Y="366.5" />
+      <Point X="232.099991" Y="366.5" />
+    </Link>
+    <Link From="X20BC0083" To="X20SL8000" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="232.099991" Y="381.5" />
+      <Point X="232.099991" Y="381.5" />
+      <Point X="232.099991" Y="393.5" />
+      <Point X="232.099991" Y="405" />
+      <Point X="265" Y="405" />
+      <Point X="265" Y="368.5" />
+      <Point X="302.5" Y="368.5" />
+      <Point X="317.5" Y="368.5" />
+      <Point X="317.5" Y="368.5" />
+    </Link>
+    <Link From="X20BT9100" To="8I64xxxxxxx.00x-1" FromPort="X2X1" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="582" Y="337" />
+      <Point X="582" Y="337" />
+      <Point X="589" Y="337" />
+      <Point X="595" Y="337" />
+      <Point X="595" Y="405" />
+      <Point X="726" Y="405" />
+      <Point X="726" Y="392" />
+      <Point X="726" Y="386" />
+      <Point X="726" Y="386" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>
